@@ -24,5 +24,5 @@ class Solution:
             elif nums[mid] < target:
                 l=mid+1
             else:
-                r=mid-2
+                r=mid-1
         return -1
